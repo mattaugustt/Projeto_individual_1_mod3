@@ -24,8 +24,8 @@ a área da tecnologia. <br>
 
 (2 registros para a checagem de cada entidade) <br>
 ------------------------------------------------------------------------------------------ <br>
-# Entidade ‘Empresa_parceira’, <br>
-# Atributos (CNPJ, Tecnologia, Nome, Area_atuacao, Endereco): <br>
+- Entidade ‘Empresa_parceira’, <br>
+- Atributos (CNPJ, Tecnologia, Nome, Area_atuacao, Endereco): <br>
 <br>
 insert into Empresa_parceira VALUES <br>
 (‘121.121.121/1111-01’, ‘PowerBI’, ‘Americanas’, ‘Comércio’, ‘Av. Flores n. 200’) <br>
@@ -33,8 +33,8 @@ insert into Empresa_parceira VALUES <br>
 <br>
 <br>
 ------------------------------------------------------------------------------------------ <br>
-# Entidade ‘Tecnologia’, <br>
-# Atributos (Nome, Area_tec, Tipo): <br>
+- Entidade ‘Tecnologia’, <br>
+- Atributos (Nome, Area_tec, Tipo): <br>
 <br>
 insert into Tecnologia VALUES <br>
 (‘Excel’, ‘Dados’, ‘Software’) <br>
@@ -42,8 +42,8 @@ insert into Tecnologia VALUES <br>
 <br>
 <br>
 ------------------------------------------------------------------------------------------ <br>
-# Entidade ‘Área’. <br>
-# Atributo (Nome): <br>
+- Entidade ‘Área’. <br>
+- Atributo (Nome): <br>
 <br>
 insert into Area VALUES  <br> 
 (‘Dados’) <br>
@@ -51,8 +51,8 @@ insert into Area VALUES  <br>
 <br>
 <br>
 ------------------------------------------------------------------------------------------ <br>
-# Entidade ‘Tecnologia_empresa’, <br>
-# Atributos (ID, CNPJ, Nome_tec): <br>
+- Entidade ‘Tecnologia_empresa’, <br>
+- Atributos (ID, CNPJ, Nome_tec): <br>
 <br>
 insert into Tecnologia_empresa VALUES <br>
 (1, ‘121.121.121/1111-01’, ‘PowerBI’) <br>
