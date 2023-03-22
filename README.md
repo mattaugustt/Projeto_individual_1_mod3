@@ -17,7 +17,7 @@ oferecidos pela Resilia. <br>
 Devemos criar uma entidade para as empresas parceiras, uma para as tecnologias utilizadas por essas e uma <br>
 entidade para a tabela que é proveniente da relação dessas duas entidades (com a cardinalidade N,N , visto <br>
 que uma empresa pode possuir N tecnologias e uma tecnologia pode ser utilizada por N empresas). Além dessas <br>
-podemos criar tambem uma entidade para a área tecnologica, visto que na entidade tecnologia deve-se selecionar <br>
+podemos criar também uma entidade para a área tecnológica, visto que na entidade tecnologia deve-se selecionar <br>
 qual o nome da área da tecnologia. <br>
 <br>
 **Preenchimento das informações do modelo:** <br>
