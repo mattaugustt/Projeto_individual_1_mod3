@@ -6,19 +6,19 @@ e-mail para contato: <br>
 mataugusto1999@gmail.com <br>
 
 
-** O que devemos fazer? ** <br>
+**O que devemos fazer?** <br>
 Devemos construir um modelo de banco de dados (diagrama) para representar quais são as tecnologias utilizadas <br>
 pelas empresas parceiras, com o objetivo de se analisar a necessidade de alteração de stacks dos cursos <br>
 oferecidos pela Resilia.
 
-** Entidades exigidas no projeto: **
+**Entidades exigidas no projeto:**
 Devemos criar uma entidade para as empresas parceiras, uma para as tecnologias utilizadas por essas e uma <br>
 entidade para a tabela que é proveniente da relação dessas duas entidades (com a cardinalidade N,N , visto <br>
 que uma empresa pode possuir N tecnologias e uma tecnologia pode ser utilizada por N empresas). Além dessas <br>
 podemos criar tambem uma entidade para a área tecnologica, visto que o na tecnologia deve-se selecionar qual <br>
 a área da tecnologia. 
 
-** Preenchimento das informações do modelo: **
+**Preenchimento das informações do modelo:**
 (2 registros para a checagem de cada entidade)
 ------------------------------------------------------------------------------------------
 # Entidade ‘Empresa_parceira’,
