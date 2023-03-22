@@ -9,7 +9,7 @@ mataugusto1999@gmail.com <br>
 **O que devemos fazer?** <br>
 
 Devemos construir um modelo de banco de dados (diagrama) para representar quais são as tecnologias utilizadas <br>
-pelas empresas parceiras, com o objetivo de se analisar a necessidade de alteração de stacks dos cursos <br>
+pelas empresas parceiras, com o objetivo de se analisar a necessidade de alteração das stacks dos cursos <br>
 oferecidos pela Resilia. <br>
 <br>
 **Entidades exigidas no projeto:** <br>
@@ -59,3 +59,11 @@ insert into Tecnologia_empresa VALUES <br>
 (2, ‘212.212.212/2222-02’, ‘Excel’) <br>
 <br>
 <br>
+<br>
+
+**Perguntas a serem respondidas:** <br>
+1. Existem outras entidades além dessas? <br>
+2. Quais são os principais campos e tipos? <br>
+3. Como essas entidades estão relacionadas? <br>
+<br>
+As respostas das questões estão no arquivo DOC 'Projeto Individual 1 - Módulo 3'. <br>
