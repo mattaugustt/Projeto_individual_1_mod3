@@ -28,8 +28,8 @@ qual o nome da área da tecnologia. <br>
 - Atributos (CNPJ, Tecnologia, Nome, Area_atuacao, Endereco): <br>
 <br>
 insert into Empresa_parceira VALUES <br>
-(‘121.121.121/1111-01’, ‘PowerBI’, ‘Americanas’, ‘Comércio’, ‘Av. Flores n. 200’) <br>
-(‘212.212.212/2222-02’, ‘Excel’, ‘Renner’, ‘Comércio’, ‘Av. Nova York n. 240’) <br>
+(‘121.121.121/1111-01’, ‘PowerBI’, ‘Americanas’, ‘Comércio’, ‘Av. Flores n. 200’), <br>
+(‘212.212.212/2222-02’, ‘Excel’, ‘Renner’, ‘Comércio’, ‘Av. Nova York n. 240’); <br>
 <br>
 <br>
 ------------------------------------------------------------------------------------------ <br>
@@ -37,8 +37,8 @@ insert into Empresa_parceira VALUES <br>
 - Atributos (Nome, Area_tec, Tipo): <br>
 <br>
 insert into Tecnologia VALUES <br>
-(‘Excel’, ‘Dados’, ‘Software’) <br>
-(‘PowerBI’, ‘Dados’, ‘Software’) <br>
+(‘Excel’, ‘Dados’, ‘Software’), <br>
+(‘PowerBI’, ‘Dados’, ‘Software’); <br>
 <br>
 <br>
 ------------------------------------------------------------------------------------------ <br>
@@ -46,8 +46,8 @@ insert into Tecnologia VALUES <br>
 - Atributo (Nome): <br>
 <br>
 insert into Area VALUES  <br> 
-(‘Dados’) <br>
-(‘Marketing’) <br>
+(‘Dados’), <br>
+(‘Marketing’); <br>
 <br>
 <br>
 ------------------------------------------------------------------------------------------ <br>
@@ -55,8 +55,8 @@ insert into Area VALUES  <br>
 - Atributos (ID, CNPJ, Nome_tec): <br>
 <br>
 insert into Tecnologia_empresa VALUES <br>
-(1, ‘121.121.121/1111-01’, ‘PowerBI’) <br>
-(2, ‘212.212.212/2222-02’, ‘Excel’) <br>
+(1, ‘121.121.121/1111-01’, ‘PowerBI’), <br>
+(2, ‘212.212.212/2222-02’, ‘Excel’); <br>
 <br>
 <br>
 <br>
